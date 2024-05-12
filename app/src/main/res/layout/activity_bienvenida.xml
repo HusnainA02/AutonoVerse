@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE4F9"
+    tools:context=".Bienvenida">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_rounded"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/titulo2_rounded"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="49dp">
+
+        <TextView
+            android:id="@+id/Bienvenida"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:background="@drawable/titulo2_rounded"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Bienvenido/a"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.214" />
+
+
+        <TextView
+            android:id="@+id/Pregunta1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titulo2_rounded"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="  ¿Qué te gustaría hacer?"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.214" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAnunTrabajo"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#3797E5"
+            android:text="Anunciar trabajo"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.713" />
+
+
+        <Button
+            android:id="@+id/btnTrabajar"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3797E5"
+            android:text="Buscar trabajo"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.825" />
+        <Button
+            android:id="@+id/btnComent"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3797E5"
+            android:text="Dejar comentario"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.825" />
+        <Button
+            android:id="@+id/btnVerAnun"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3797E5"
+            android:text=" Mis Anuncios / Solicitudes"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.825" />
+
+        <Button
+            android:id="@+id/btnMiPerfil"
+            android:layout_width="380dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#3797E5"
+            android:text=" Mi Perfil"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.825" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "579438681459",
+    "firebase_url": "https://autonoverse-f0306-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "autonoverse-f0306",
+    "storage_bucket": "autonoverse-f0306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579438681459:android:42986eb6439c27e011f906",
+        "android_client_info": {
+          "package_name": "com.example.autonoverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2dh68SQBikOaZHHc6QWgC_AQpf03pybQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AutonoVerse</string>
+
+    <string name="descrip1">
+        El proyecto consiste en desarollar una aplicación para conectar personas que necesitan
+        servicios con professionales autónomos. Los usuarios se registran,
+        publican ofertas de trabajo y los autónomos pueden solicitarlas.
+
+</string>
+    <string name="title_activity_registro2">registro2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="tituloAnunTrab"> A continuación rellena la información necesaria para anunciar el trabajo: </string>
+    <string name="comen"> A continuación deja tú opinión sobre la experiencia obtenida una vez finalizado el trabajo.</string>
+
+</resources>

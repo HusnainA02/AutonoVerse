@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE4F9"
+    android:orientation="vertical"
+    tools:context=".Comentar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="690dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_rounded"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:id="@+id/AnunTrab"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:background="@drawable/titulo2_rounded"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:text="@string/comen"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.214" />
+
+        <EditText
+            android:id="@+id/RefanunComen"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Referéncia anuncio"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:radius="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <EditText
+            android:id="@+id/ExpComen"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Experiéncia obtenida"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/titulo2_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=""
+            android:inputType="text"
+            android:text=" A continuación valora la App"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <EditText
+            android:id="@+id/IdUsuComen"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Id usuario"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:radius="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <EditText
+            android:id="@+id/ValoComen"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Valoración..."
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <Button
+            android:id="@+id/btnComen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#3797E5"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="Enviar"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

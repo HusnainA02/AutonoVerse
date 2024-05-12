@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background_rounded"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="49dp">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:text=" Referencia anuncio:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Referencia"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Referencia"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Titulo anuncio:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Titulo"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Titulo"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Tú Id usuario:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/IdUsuario"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Tú Usuario"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Correo electrónico trabajador:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Correo"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Correo"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Número de contacto trabajador:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Numero"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Numero"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Horas disponibilidad trabajador:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/HorasDisponibles"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Horas Disponibles"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" Otros detalles:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Otros"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" Otros detalles"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:text=" URL archivo CV:"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:enabled="false"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/UrlArchivo"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/titulo2_rounded"
+                    android:ems="10"
+                    android:hint=" URL del archivo"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.428" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

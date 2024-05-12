@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAE4F9"
+    android:orientation="vertical"
+    tools:context=".AnunciarTrabajo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#6F9FC6"
+        android:textColor="@color/white"
+        android:title="AutonoVerse"
+        android:elevation="4dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="720dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_rounded"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:id="@+id/AnunTrab"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Rellena el siguiente formulario de contacto para enviar la solicitud"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.214" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:text=" Referencia:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/RefUsuTrab"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Referéncia anuncio"
+            android:inputType="text"
+            android:padding="8dp"
+            android:paddingLeft="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Titulo anuncio:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/TituloTrab"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Titulo anuncio"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" ID usuario anunciante:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/IdUsuTrab"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Id usuario anuncio"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Disponibilidad trabajador:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/DisponTrab"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Horas disponible que puedas trabajar"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Correo electrónico trabajador:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/CorreoUsuForm"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Tú correo"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Número de contacto trabajador:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/NumUsuForm"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Tú número de contacto"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Otros:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/OtrosForm"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:radius="20dp"
+            android:ems="10"
+            android:hint=" Otros"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.319" />
+
+        <Button
+            android:id="@+id/btnCvTrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#3797E5"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:text="Adjuntar CV..."
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+
+            <CheckBox
+                android:id="@+id/CheckBoxPoliticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="He leído y acepto las "
+                android:textColor="@color/black"
+                android:backgroundTint="#3797E5" />
+
+            <TextView
+                android:id="@+id/LinkPoliticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="políticas de privacidad"
+                android:textColorLink="#3E0A1C"
+                android:textColor="#3797E5"
+                android:autoLink="web"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnSoliTrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#3797E5"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="Enviar solicitud"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CAE4F9"
+    android:padding="16dp"
+    tools:context=".MiPerfil">
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/background_rounded"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/titulo_rounded"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=" Mi perfil"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.214" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Id usuario:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/etIdUsuario"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Id usario"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Nombre:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Nombre"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Correo electrónico:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text=" Contraseña:"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:enabled="false"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:padding="8dp"
+            android:background="@drawable/form_rounded"
+            android:ems="10"
+            android:hint=" Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <CheckBox
+            android:id="@+id/cbMostrarContrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#3797E5"
+            android:text="Mostrar contraseña"
+            android:autoLink="web" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3797E5"
+            android:text="Guardar cambios"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3797E5"
+            android:text="Siguiente"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

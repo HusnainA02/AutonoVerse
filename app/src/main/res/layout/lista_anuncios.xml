@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/fondo_rounded"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TitTrab"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Título anuncio"
+            android:layout_gravity="left"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp" />
+
+        <TextView
+            android:id="@+id/RefUsuTrab"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Ref. anuncio"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/LocUsuTrab"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Localización"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/PrecioTrab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  A partir de: 0€ / h"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/DisponTrab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Necesita: 0 h disponibilidad"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/DescripTrab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Descripción anuncio:"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/ExperiTrab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/titulo2_rounded"
+            android:gravity="left"
+            android:text="  Experiéncia que necesita:"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <TextView
+            android:id="@+id/IdUsuTrab"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="end"
+            android:layout_margin="3dp"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Id de usuario"
+            android:textColor="@color/white"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/FechaTrab"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:background="@drawable/titulo2_rounded"
+            android:text="  Fecha:"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:id="@+id/btnContactTrab"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#3797E5"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:text=" Contactar"
+            android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+</LinearLayout>
